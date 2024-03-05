@@ -15,7 +15,6 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.criminalintent.databinding.FragmentArticleListBinding
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
 class ArticleListFragment : Fragment() {

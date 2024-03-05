@@ -31,9 +31,6 @@ class ArticleListViewModel : ViewModel() {
                 if (response.isSuccessful) {
                     val responseBody = response.body?.string()
 
-                    val gson = Gson()
-                    val newsResponse: NewsResponse = gson.fromJson(responseBody, NewsResponse::class.java)
-
                     if (responseBody != null) {
                         val gson = Gson()
                         val newsResponse: NewsResponse = gson.fromJson(responseBody, NewsResponse::class.java)

@@ -6,12 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.lifecycleScope
-import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.navArgs
 import com.example.criminalintent.databinding.FragmentArticleDetailBinding
-import kotlinx.coroutines.launch
 
 class ArticleDetailFragment: Fragment() {
     private var _binding: FragmentArticleDetailBinding? = null
