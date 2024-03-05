@@ -47,6 +47,8 @@ class ArticleDetailFragment: Fragment() {
             articleTitle.text = article.title
             articleDescription.text = article.description
             articleDate.text = article.publishedAt
+            articleAuthor.text = article.author
+//            articleLink.text = article.url
         }
     }
 }

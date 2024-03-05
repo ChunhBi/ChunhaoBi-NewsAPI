@@ -11,6 +11,7 @@ class ArticleHolder (
     fun bind(article: Article, onArticleClicked: (articleId: Article) -> Unit) {
         binding.articleTitle.text = article.title
         binding.articleDate.text = article.publishedAt
+        binding.articleAuthor.text = article.author
         binding.root.setOnClickListener {
             onArticleClicked(article)
         }
